@@ -1,0 +1,11 @@
+.btn{
+    color: #ffe484;
+    border-color: #ffe484;
+}
+li{
+    display: inline;
+    float: right;
+    font-size: 20px;
+    justify-content:space-around;
+
+}

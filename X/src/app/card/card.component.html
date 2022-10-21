@@ -1,0 +1,11 @@
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="/assets/imagenes/team.jpeg"*ngIf="hidden" alt="">
+    <div class="card-body">
+        <h3>Skills</h3>
+        <ul>
+            <li *ngFor="let item of skills">{{item}}</li>
+            
+        </ul>
+        <button class="btn btn-primary"(click)="imagen()">Mostrar/Ocultar</button>
+    </div>
+</div>
